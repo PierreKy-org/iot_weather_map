@@ -66,7 +66,7 @@ async function v0() {
     //===============================================
     // Connexion au broker MQTT distant
     //
-    const mqtt_url = "mqtts://home.haysberg.io:8883";
+    const mqtt_url = process.env.MQTT_SERVER;
     //const mqtt_url = 'http://broker.hivemq.com'
     //const mqtt_url = 'http://test.mosquitto.org:1883'
     var options = {
@@ -199,7 +199,7 @@ app.use(function (request, response, next) {
 
 // Route / => Le node renvoie la page HTML affichant les charts
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname + "/Leaflet_esp/index.html"));
+  res.sendFile(path.join(__dirname + "/index.html"));
 });
 
 // The request contains the name of the targeted ESP !
