@@ -200,7 +200,7 @@ app.use(function (request, response, next) {
 
 // Route / => Le node renvoie la page HTML affichant les charts
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname + "/index.html"));
+  res.sendFile(path.join(__dirname + "/Leaflet_esp/index.html"));
 });
 
 // The request contains the name of the targeted ESP !
