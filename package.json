@@ -1,0 +1,28 @@
+{
+  "engines": {
+    "node": "17.2.0"
+  },
+  "name": "tp4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_lucioles_v4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_lucioles_v4.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zorrino/iot_weather_map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zorrino/iot_weather_map/issues"
+  },
+  "homepage": "https://github.com/Zorrino/iot_weather_map#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mqtt": "^4.3.4"
+  }
+}

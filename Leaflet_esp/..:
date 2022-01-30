@@ -1,11 +1,19 @@
 {
+  "engines": {
+	  "node": "17.2.0"
+  },
   "name": "leaflet_esp",
   "version": "1.0.0",
   "description": "",
   "main": "node_lucioles_v4.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"i,
+    "start": "node node_lucioles_v4.js"
   },
+  "repository": {
+	  "type": "git",
+	  "url" : "git+https://github.com/Zorrino/iot_weather_map.git
+	 },
   "author": "",
   "license": "ISC",
   "dependencies": {
